@@ -3,7 +3,7 @@ import Balloon from '../assets/Balloon.png'
 
 const HeroSection = () => {
   return (
-    <div className="bg-black text-white">
+    <div className=" text-white">
       <div className="flex w-full h-screen">
         <div className="w-1/2 flex justify-center items-center">
           <img src={Balloon} alt="Balloon" />
