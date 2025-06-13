@@ -2,6 +2,8 @@ import React from 'react'
 import one from '../assets/img1.png'
 import two from '../assets/img2.png'
 import three from '../assets/img3.png'
+import cloud from '../assets/Cloud1.png'
+
 const InfoCards = () => {
 const cards = [
   {
@@ -26,8 +28,8 @@ const cards = [
 
   return (
     <div>
-      <div className="w-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(clouds-white.svg)' }}>
-      <div className="flex justify-center items-center text-white gap-10 py-12 px-4">
+      <div className="w-screen h-[600px] bg-cover bg-center bg-no-repeat  flex justify-center items-center" style={{ backgroundImage:  `url(${cloud})` }}>
+      <div className="flex justify-between items-center text-black gap-100  mt-35 py-12 px-4">
         {cards.map(({ img, title, desc, link }, idx) => (
           <div key={idx} className="w-1/3 text-center w-80 mx-auto   space-y-6">
             <img src={img} alt={title} className="mx-auto w-16" />

@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className=" text-white">
       <div className="flex w-full h-screen">
-        <div className="w-1/2 flex justify-center items-center">
+        <div className="w-1/2 mb-20 flex justify-center items-center">
           <img src={Balloon} alt="Balloon" />
         </div>
         <div className="w-120 p-6 space-y-10 ">
